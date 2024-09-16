@@ -9,5 +9,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
 
-  @Input() label = 'Texto'
+  @Input() label = ''
 }

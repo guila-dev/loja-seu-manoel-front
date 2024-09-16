@@ -1,9 +1,10 @@
-import { Component, Input } from '@angular/core';
-
+import { CommonModule } from '@angular/common';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { FormsModule } from '@angular/forms'
 @Component({
   selector: 'app-input',
   standalone: true,
-  imports: [],
+  imports: [FormsModule],
   templateUrl: './input.component.html',
   styleUrl: './input.component.css'
 })
@@ -12,5 +13,8 @@ export class InputComponent {
   @Input() placeholder = '';
   @Input() type = 'text';
 
-  @Input() onInput = (event: Event) => {};
+  @Input() label: string = '';
+  @Input() value: any;
+  @Output() valueChange = new EventEmitter<any>();
+
 }
