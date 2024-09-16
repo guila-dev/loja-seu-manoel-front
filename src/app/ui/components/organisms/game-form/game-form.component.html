@@ -1,0 +1,11 @@
+<div class="bg-white shadow-md rounded px-8 max-w-sm mx-auto">
+        
+    <app-input label="Nome" [(value)]="title"></app-input>
+    
+    <app-input label="Preço" [(value)]="price"></app-input>
+    <app-input label="Dimensões da Caixa" [(value)]="dimensions"></app-input>
+    <app-input label="URL da Imagem" [(value)]="imageUrl"></app-input>
+    <div class="my-1.5">
+        <app-button label="Salvar" (click)="send()"></app-button>
+    </div>
+</div>
