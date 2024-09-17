@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
+    "desafio2":"npx tsx .\\src\\desafio-2\\index.ts",
     "test": "ng test",
     "serve:ssr:loja-seu-manoel-front": "node dist/loja-seu-manoel-front/server/server.mjs"
   },
@@ -46,6 +47,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "sass": "^1.78.0",
+    "tsx": "^4.19.1",
     "typescript": "~5.5.2"
   }
 }
