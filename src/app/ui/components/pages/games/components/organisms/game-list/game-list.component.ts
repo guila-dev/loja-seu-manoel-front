@@ -7,7 +7,6 @@ import { Game } from '../../../../../../../core/entities/game.entity';
   standalone: true,
   imports: [GameCardComponent],
   templateUrl: './game-list.component.html',
-  styleUrl: './game-list.component.css'
 })
 export class GameListComponent {
 
