@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { GameCardComponent } from '../../molecules/game-card/game-card.component';
-import { Game } from '../../../../core/entities/game.entity';
+import { Game } from '../../../../../../../core/entities/game.entity';
 
 @Component({
   selector: 'app-game-list',

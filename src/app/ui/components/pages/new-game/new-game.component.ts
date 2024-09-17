@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GameFormComponent } from '../../organisms/game-form/game-form.component';
+import { GameFormComponent } from './components/organisms/game-form/game-form.component';
 import { FormsModule } from '@angular/forms'
 
 @Component({

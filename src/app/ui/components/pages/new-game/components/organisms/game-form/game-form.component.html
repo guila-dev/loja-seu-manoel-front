@@ -1,0 +1,20 @@
+<div class="bg-white shadow-md rounded px-8 max-w-sm mx-auto">
+        
+    <app-input label="Nome" placeholder="Insira o nome do jogo" [(value)]="name"></app-input>
+    
+    <app-input label="Preço" placeholder="Insira o preço do jogo" type="number" [(value)]="price"></app-input>
+    <h3>Dimensões da Caixa</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-20">
+        <app-input label="Altura" type="number" [(value)]="dimensions.height"></app-input>
+        <app-input label="Largura" type="number" [(value)]="dimensions.length"></app-input>
+        <app-input label="Comprimento" type="number" [(value)]="dimensions.width"></app-input>
+        
+      </div>
+
+    <app-input class="h-20" label="Descrição" placeholder="Insira o Descrição do jogo" [(value)]="description"></app-input>
+
+    <app-input label="URL da Imagem" placeholder="Insira a url da capa do jogo" [(value)]="coverImage"></app-input>
+    <div class="my-1.5">
+        <app-button label="Salvar" (click)="send()"></app-button>
+    </div>
+</div>

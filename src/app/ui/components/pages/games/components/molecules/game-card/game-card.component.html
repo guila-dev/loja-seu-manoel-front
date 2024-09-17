@@ -1,0 +1,7 @@
+<div class="flex flex-col items-center justify-center w-60 p-2 bg-white shadow-lg rounded-lg min-h-64">
+    <app-image [src]="game.coverImage" [alt]="game.name"></app-image>
+    <app-text [text]="game.name"></app-text>
+    <app-micro-text  [text]="game.dimensions.height + ' x ' + game.dimensions.length + ' x ' + game.dimensions.width"></app-micro-text>
+    <app-description [text]="game.description"></app-description>
+    <p class="text-green-600 font-bold">R${{ game.price}}</p>
+</div>

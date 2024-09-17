@@ -1,0 +1,11 @@
+<div class="w-full" >
+    <label class="text-center block text-gray-700 text-sm font-bold mb-2">{{label}}</label>
+
+    <input 
+    class="bg-gray-300 border border-gray-500 text-gray-900 text-sm rounded-lg w-full p-2.5"
+    [placeholder]="placeholder"
+    [type]="type"
+    [(ngModel)]="value"
+    (ngModelChange)="valueChange.emit($event)"
+    />
+</div>
