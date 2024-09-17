@@ -7,7 +7,6 @@ import { FormsModule } from '@angular/forms'
   standalone: true,
   imports: [GameFormComponent, FormsModule],
   templateUrl: './new-game.component.html',
-  styleUrl: './new-game.component.css'
 })
 export class NewGameComponent {
 

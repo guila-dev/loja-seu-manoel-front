@@ -13,7 +13,6 @@ import { MicroTextComponent } from '../../atoms/micro-text/micro-text.component'
     TextComponent, MicroTextComponent,
     DescriptionComponent],
   templateUrl: './game-card.component.html',
-  styleUrl: './game-card.component.css'
 })
 export class GameCardComponent {
   @Input()

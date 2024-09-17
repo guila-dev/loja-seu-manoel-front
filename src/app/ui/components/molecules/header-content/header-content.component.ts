@@ -9,7 +9,6 @@ import { Router } from '@angular/router';
   standalone: true,
   imports: [HeaderTitleComponent, IconeComponent, ButtonComponent],
   templateUrl: './header-content.component.html',
-  styleUrl: './header-content.component.css'
 })
 export class HeaderContentComponent {
   router = inject(Router);

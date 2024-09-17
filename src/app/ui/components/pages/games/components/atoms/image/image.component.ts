@@ -5,7 +5,6 @@ import { Component, Input } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './image.component.html',
-  styleUrl: './image.component.css'
 })
 export class ImageComponent {
 

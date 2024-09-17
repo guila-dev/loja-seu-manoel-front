@@ -6,7 +6,6 @@ import { HeaderContentComponent } from '../../molecules/header-content/header-co
   standalone: true,
   imports: [HeaderContentComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
 })
 export class HeaderComponent {
 
